@@ -1,0 +1,7 @@
+{
+  "name": "Start",
+
+  "render_data": {
+    "sprite": "data\\startmenu.dds"
+  }
+}

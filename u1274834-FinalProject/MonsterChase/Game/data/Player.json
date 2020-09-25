@@ -1,0 +1,21 @@
+{
+  "name": "Player",
+  "initial_position": [ 100.0, -280.0, 0.0 ],
+  "initial_velocity": [ 0.0, 0.0, 0.0 ],
+  "mass": 10.0,
+
+  "physics_data": {
+    "mass": 10.0,
+    "kd": 5.0,
+    "hasGravity": false,
+    "isControllable": true
+  },
+  "collision_data": {
+    "offset": [ 0.0, 82.0, 0.0 ],
+    "extents": [ 44.0, 82.0, 0.0 ]
+  },
+
+  "render_data": {
+    "sprite": "data\\GoodGuy.dds"
+  }
+}

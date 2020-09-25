@@ -1,0 +1,8 @@
+{
+  "name": "OOBLower",
+  "initial_position": [ 0.0, -198.0, 0.0 ],
+  "collision_data": {
+    "offset": [ 0.0, 0.0, 0.0 ],
+    "extents": [ 390.0, 10.0, 0.0 ]
+  }
+}

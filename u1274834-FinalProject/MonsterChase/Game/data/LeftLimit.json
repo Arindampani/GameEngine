@@ -1,0 +1,8 @@
+{
+  "name": "OOBLeft",
+  "initial_position": [ -390.0, 0.0, 0.0 ],
+  "collision_data": {
+    "offset": [ 0.0, 0.0, 0.0 ],
+    "extents": [ 10.0, 198.0, 0.0 ]
+  }
+}

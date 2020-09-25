@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\HashedString">
+      <UniqueIdentifier>{38ff00ec-051e-47ad-a753-e970f44e55eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JobSystem">
+      <UniqueIdentifier>{3b7af736-d508-42e9-ad48-db6a87e00557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Synchronization">
+      <UniqueIdentifier>{4bbeb958-3462-4a59-b23f-84428eb12b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console">
+      <UniqueIdentifier>{70d7ba96-ebbf-49c5-8c28-ef8a66dd4ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{e004577a-1022-4d15-b79f-aa33d692fd9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JobSystem\IJob.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem\JobRunner.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem\JobSystem.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem\SharedJobQueue.cpp">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Syncronization\Events.cpp">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="Syncronization\Mutex.cpp">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="Syncronization\Semaphore.cpp">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\ConsolePrint.Win32.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="HashedString\HashedString.cpp">
+      <Filter>Source Files\HashedString</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\IGameObjectController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\InputGameObjectController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="File\LoadFileToBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Init\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem\ProcessFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Point2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timing\TimingSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Allocators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\BitArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\FixedSizeAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\heapManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MemorySystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JobSystem\IJob.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem\INamed.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem\JobRunner.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem\JobSystem.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem\SharedJobQueue.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem\SharedJobQueue-inl.h">
+      <Filter>Source Files\JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Syncronization\Events.h">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="Syncronization\Mutex.h">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="Syncronization\ScopeLock.h">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="Syncronization\Semaphore.h">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="Syncronization\SingleWriterMultipleReader.h">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="Syncronization\WaitableObject.h">
+      <Filter>Source Files\Synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\ConsolePrint.h">
+      <Filter>Source Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Pointers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\IGameObjectController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\InputGameObjectController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="File\LoadFileToBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\GameObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedString\HashedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedString\HashedString-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Init\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem\ProcessFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix4-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Point2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Point2D-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Utilities-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timing\TimingSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\BitArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\FixedSizeAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\heapManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\HeapManager-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MemorySystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

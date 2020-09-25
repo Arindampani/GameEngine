@@ -1,0 +1,8 @@
+{
+	"name": "OOB-Bottom",
+	"initial_position": [ 0.0, -298.0, 0.0 ],
+	"collision_data": {
+			"offset": [ 0.0, 2.0, 0.0 ],
+			"extents": [ 512.0, 2.0, 0.0 ]
+	}
+}

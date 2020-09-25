@@ -1,0 +1,7 @@
+{
+  "name": "Background",
+
+  "render_data": {
+    "sprite": "data\\background.dds"
+  }
+}
